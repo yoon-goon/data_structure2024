@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char* ptr[4] = { "Korea","Seoul","Mapo","152¹øÁö 2/3" };
+	char* ptr[4] = { "Korea","Seoul","Mapo","152ë²ˆì§€ 2/3" };
 
 	printf("%s\n%s\n%s\n%s\n", ptr[0], ptr[1], ptr[2], ptr[3]);
 
