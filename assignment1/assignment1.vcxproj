@@ -140,7 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="assignment1.c" />
+    <ClCompile Include="assignment1.c">
+      <UseUnicodeForAssemblerListing Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</UseUnicodeForAssemblerListing>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
