@@ -7,7 +7,7 @@ int main() {
 		int pay;
 	};
 
-	struct employee Lee = { "Ahn",2022,5200 };
+	struct employee Lee = { "Ann",2022,5200 };
 
 	return 0;
 }
