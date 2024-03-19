@@ -7,7 +7,7 @@ void main() {
 	for (i = 0; i < 2; i++) {
 		printf("\n 학생 %d의 이름 : ", i + 1);
 		gets(arr[i][0]);
-		printf(" 학생 %d의 학과. : ", i + 1);
+		printf(" 학생 %d의 학과 : ", i + 1);
 		gets(arr[i][1]);
 		printf(" 학생 %d의 학번 : ", i + 1);
 		gets(arr[i][2]);
