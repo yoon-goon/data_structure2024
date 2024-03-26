@@ -10,7 +10,7 @@ int main()
 	//for 루프 시작 시간
 	start = (double)clock() / CLOCKS_PER_SEC;
 
-	//for loop 100000000번 돌아보기
+	//for loop 100000000번 돌아보기 bigO -> N
 	int sum = 0;
 	for (i = 0; i < 100000000; i++) {
 		sum++;
