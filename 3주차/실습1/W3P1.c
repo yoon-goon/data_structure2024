@@ -1,4 +1,4 @@
-#include <time.h>
+ï»¿#include <time.h>
 #include <stdio.h>
 
 
@@ -7,10 +7,10 @@ int main()
 	int i;
 	double start, end;
 
-	//for ·çÇÁ ½ÃÀÛ ½Ã°£
+	//for ë£¨í”„ ì‹œì‘ ì‹œê°„
 	start = (double)clock() / CLOCKS_PER_SEC;
 
-	//for loop 100000000¹ø µ¹¾Æº¸±â
+	//for loop 100000000ë²ˆ ëŒì•„ë³´ê¸°
 	int sum = 0;
 	for (i = 0; i < 100000000; i++) {
 		sum++;
