@@ -23,7 +23,7 @@ int insertElement(int L[], int n, int x) {
 }
 
 int deleteElement(int L[], int n, int x) {
-    int i, k = 0, move = 0; //move = 자리이동 횟수 카운터
+    int i, k = n, move = 0; //move = 자리이동 횟수 카운터
     //원소 크기를 비교해 삭제 위치 k찾기
     for (i = 0; i < n; i++) {
         if (L[i] == x) {
