@@ -9,7 +9,7 @@ int main(void) {
         printf("%3d ", list[i]);
     printf("\n원소의 갯수 : %d \n", size);
 
-    move = insertElement(list, size, 45);
+    move = insertElement(list, size, 8);
 
     printf("\n삽입 후 선형 리스트 : ");
     for (i = 0; i <= size; i++)
@@ -17,7 +17,7 @@ int main(void) {
     printf("\n원소의 갯수 : %d ", ++size);
     printf("\n자리 이동 횟수 : %d \n", move);
 
-    move = deleteElement(list, size, 60);
+    move = deleteElement(list, size, 70);
     if (move == size)
         printf("\n선형 리스트에 원소가 없어서 삭제 할 수 없습니다.\n");
     else
