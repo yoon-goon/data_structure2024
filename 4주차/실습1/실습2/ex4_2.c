@@ -15,7 +15,7 @@ int main(void) {
     printf("\n(2) 리스트에 [수] 노드 탐색하기! \n");
     p = searchNode(L, "수");
     if (p == NULL) printf("찾는 데이터가 없습니다.\n");
-    else printf("[%s]를 찾았씁니다.\n", p->data);
+    else printf("[%s]를 찾았습니다.\n", p->data);
 
     printf("\n(3) 리스트의 [수] 뒤에 [금] 노드 삽입하기!\n");
     insertMiddleNode(L, p, "금");
