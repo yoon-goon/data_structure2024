@@ -4,7 +4,7 @@
 #include <string.h>
 #include "DoubleLinkedList.h"
 
-//공백 이중 연결 리스트를 생성하는 연산
+// 공백 이중 연결 리스트를 생성하는 연산
 linkedList_h* createLinkedList_h(void) {
     linkedList_h* DL;
     DL = (linkedList_h*)malloc(sizeof(linkedList_h)); // 헤드 노드 할당
@@ -49,8 +49,8 @@ void insertNode(linkedList_h* DL, listNode* pre, char* x) {
 
 // 이중 연결 리스트에서 노드 old를 삭제하는 연산
 void deleteNode(linkedList_h* DL, listNode* old) {
-    if (DL->head == NULL) return;        //공백 리스트라면 삭제 연산 중단
-    else if (old == NULL) return;         //삭제할 노드가 없다면 삭제 연산 중단
+    if (DL->head == NULL) return;        // 공백 리스트라면 삭제 연산 중단
+    else if (old == NULL) return;         // 삭제할 노드가 없다면 삭제 연산 중단
     else {
         old->llink->rlink = old->rlink;
         old->rlink->llink = old->llink;

@@ -26,7 +26,7 @@ int main(void) {
     printList(DL);
 
     printf("\n(5) 이중 연결 리스트에서 [수] 노드 삭제하기! \n");
-    p = searchNode(DL, "수"); deleteNode(DL, p);                   // 포인터 p노드 삭제
+    p = searchNode(DL, "수"); deleteNode(DL, p);                  
     printList(DL);  getchar();
     return 0;
 }

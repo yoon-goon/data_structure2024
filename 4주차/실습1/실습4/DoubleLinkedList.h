@@ -1,6 +1,6 @@
 ﻿#pragma once
-// 이중 연결 리스트의 노드 구조를 구조체로 정의
 
+// 이중 연결 리스트의 노드 구조를 구조체로 정의
 typedef struct ListNode {
     struct ListNode* llink; // 왼쪽(선행) 노드에 대한 링크
     char data[4];
