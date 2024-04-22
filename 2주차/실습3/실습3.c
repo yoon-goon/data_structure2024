@@ -1,6 +1,9 @@
-int main(void) {
+﻿#include <stdio.h>
+
+int main(void) 
+{
 	int num = 10;
-	int* pnum = &num;
+	int *pnum = &num;
 
 	printf("%d, %d \n", num, *pnum);
 
