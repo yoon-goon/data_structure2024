@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void main() {
 	char arr[2][3][20];
@@ -13,7 +13,7 @@ void main() {
 		gets(arr[i][2]);
 
 	}
-
+     
 
 
 	for (i = 0; i < 2; i++) {
