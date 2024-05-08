@@ -36,7 +36,7 @@ void enQueue(QueueType* Q, element item) {
     if (isQueueFull(Q)) return;  // 포화 상태이면, 삽입 연산 중단
     else {
         Q->rear++;
-        Q->queue[Q->rear] = item;
+        Q->queue[Q->rear] = item; // q[] 식인 이유는 1차원 배열
     }
 }
 
@@ -44,15 +44,16 @@ void enQueue(QueueType* Q, element item) {
 element deQueue(QueueType* Q) {
     if (isQueueEmpty(Q)) return;  // 공백 상태이면, 삭제 연산 중단
     else {
-        Q->front++;
+        Q->front++; // 시험:front 증가시키는 이유
         return Q->queue[Q->front];
     }
 }
 
-// 순차 큐의 가장 앞에 있는 원소를 검색하는 연산
+// 순차 큐의 가장 앞에 있는 원소를 검색하는 연산 // 시험문제!!
 element peekQ(QueueType* Q) {
     if (isQueueEmpty(Q)) return; // 공백 상태이면 연산 중단
-    else return Q->queue[Q->front + 1];
+    else 
+        return Q->queue[Q->front + 1];
 }
 
 // 순차 큐의 원소를 출력하는 연산
