@@ -1,9 +1,9 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 void bubbleSort(int a[], int size) {
 	int i, j, t, temp;
 
 	for (i = size - 1; i > 0; i--) {
-		printf("\n %d�ܰ�>>", size - i);
+		printf("\n %d단계>>", size - i);
 		for (j = 0; j < i; j++) {
 			if (a[j] > a[j + 1]) {
 				temp = a[j];
