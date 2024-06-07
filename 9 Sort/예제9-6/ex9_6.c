@@ -1,13 +1,13 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 void shellSort(int a[], int size);
 
 int main(void) {
 	int list[8] = { 69, 10, 30, 2, 16, 8, 31, 22 };
-	int size = sizeof(list) / sizeof(list[0]); 	// list ¹è¿­ÀÇ ¿ø¼Ò °³¼ö
-	printf("\nÁ¤·ÄÇÒ ¿ø¼Ò : ");
+	int size = sizeof(list) / sizeof(list[0]); 	// list ë°°ì—´ì˜ ì›ì†Œ ê°œìˆ˜
+	printf("\nì •ë ¬í•  ì›ì†Œ : ");
 	for (int i = 0; i < size; i++)  printf("%3d ", list[i]);
-	printf("\n\n<<<<<<<<<< ¼Ğ Á¤·Ä ¼öÇà >>>>>>>>>>\n");
-	shellSort(list, size);  // ½© Á¤·Ä ÇÔ¼ö È£Ãâ
+	printf("\n\n<<<<<<<<<< ì…¸ ì •ë ¬ ìˆ˜í–‰ >>>>>>>>>>\n");
+	shellSort(list, size);  // ì…¸ ì •ë ¬ í•¨ìˆ˜ í˜¸ì¶œ
 
 	getchar();  return 0;
 }
